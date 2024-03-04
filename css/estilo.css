@@ -1,0 +1,158 @@
+.caixa {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+    margin: 30px 20px;
+}
+
+.retangulo{
+    background-color: green;
+    width: 200px;
+    height: 100px;
+    border: 2px solid yellow;
+    box-shadow: 20px 20px 20px black;
+    padding: 20px;
+    color: white;
+}
+
+.duas-layout {
+    width: 500px;
+    height: 300px;
+    
+}
+
+.titilo-caixa {
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.imagem-fundo {
+    background-image: url("../img/mar.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px;
+    height: 600px; 
+}
+
+.primeiro-branco{
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.segundo-preto {
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: black;
+}
+
+.bordas-listas li {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: yellow;
+}
+
+.bordas-listas li:first-child {
+    border: none;
+    background-color: blue;
+}
+.bordas-listas li:last-child {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: violet;
+    border: none;
+   
+}
+
+.tabela {
+    background-color: blue;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+}
+
+.tabela th {
+    background-color: yellowgreen;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    color: blue;
+    font-weight: bold;
+}
+
+
+.tabela td {
+    background-color: yellow;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.formulario {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    background-image: url("../img/fundo-input.jpg");
+    height: 300px;
+    text-align: center;
+}
+.formulario input{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+}
+
+.formulario input:hover {
+    background-color: yellow;
+}
+button {
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+}
+
+button:active {
+    background-color: blue;
+}
+
+.imagem-borda img {
+    border: 5px green;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#caixa-box h1 {
+    border: 3px solid purple;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px lightgray;
+    width: 250px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+
+}
+
+ 
+  
+  
